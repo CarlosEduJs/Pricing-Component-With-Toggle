@@ -46,6 +46,7 @@ function App() {
             type={card.type}
             price={card.prices[type]}
             sendUp={card.sendUp}
+            userAlloweds={card.usersAlloweds}
             storage={card.storage}
             isSelected={selectedCardIndex === index}
             onClick={() => handleCardClick(index)}
